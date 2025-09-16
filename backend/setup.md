@@ -32,7 +32,9 @@ this section you make containers for services used in the project.
 ```bash
    docker compose up -d servics_name1 services_mname2
 ```
-
+##### .env Setup
+This section help to manage credencial and secrets 
+- Create a .env file on each service at root and copy the env from repective services.
 
 ### Cool
 Now You are Setup the Project in Your local machine. keep contributing.
