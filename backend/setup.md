@@ -1,9 +1,12 @@
 ## Backend Setup
 
 #### System Requirement
-1. Nodejs versions: 
-2. Docker  versions: 
-3. Git      versions: 
+1. Nodejs 
+  - versions: 
+2. Docker  
+     - versions: 
+3. Git      
+     - versions: 
 #### Installations
 ##### 1. Repository clone
 open your terminal and use this command to clone the repo
