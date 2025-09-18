@@ -1,0 +1,233 @@
+{
+	"info": {
+		"_postman_id": "48580027-23901303-f78a-4dc6-a14d-4103830d0eea",
+		"name": "zoopsecrm",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "3-auth-service",
+			"item": [
+				{
+					"name": "CreateAddress",
+					"id": "48580027-d50d4b84-2f94-486e-b213-1c7bd9befb1c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "test",
+					"id": "48580027-83c78386-2aa0-43cc-9ebe-6ee5d001302d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "48580027-911220bd-3d06-4a0e-a395-4661c7716446",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateTanantAdress",
+					"id": "48580027-27da699c-d2f1-4c04-9e68-c3fb1de298b7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "signup",
+					"id": "48580027-0f725927-568d-46bd-97a0-18e1b548ebad",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllAddress",
+					"id": "48580027-400838cf-f1e4-494e-933e-89e45ebd2d10",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getbyid",
+					"id": "48580027-476a98e0-a9ba-4b06-a2f2-cd300f5915e9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deletebyid",
+					"id": "48580027-307b9864-4703-449d-9b1b-0c5efd7bcd5c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "48580027-2a1cb4de-c196-4585-8399-b4bf8fcbac98"
+		},
+		{
+			"name": "New Folder",
+			"item": [],
+			"id": "48580027-2a895da1-e762-4448-8c6f-253f112e5c0b"
+		},
+		{
+			"name": "gateway",
+			"item": [
+				{
+					"name": "auth",
+					"item": [
+						{
+							"name": "Address",
+							"item": [
+								{
+									"name": "createAddress",
+									"id": "48580027-d2b05477-5dd4-4fe5-b2f4-ec59dbea230e",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": ""
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "updateAddress",
+									"id": "48580027-74373708-9fba-4313-bab4-f1d1a148942d",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": ""
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "getAddressById",
+									"id": "48580027-a0f36c14-cad9-4a02-ad9b-b99b76a90411",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": ""
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "deleteAdressById",
+									"id": "48580027-bb394fe1-db37-4cb6-ae43-12ebc6b78fdf",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": ""
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "getAll Address",
+									"id": "48580027-8412fd87-fa6a-48a3-82bf-10abaa9c19e4",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": ""
+										}
+									},
+									"response": []
+								}
+							],
+							"id": "48580027-651f3b15-21b0-4937-b4b4-6b0d0f8e27c1"
+						}
+					],
+					"id": "48580027-3654a7f3-b20e-4443-aaec-a1c4023a9315"
+				}
+			],
+			"id": "48580027-596f5bfa-8ad0-43fe-aee4-b81078238bce"
+		}
+	]
+}
