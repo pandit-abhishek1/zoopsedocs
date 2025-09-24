@@ -1,11 +1,15 @@
 # Zoopse Developer Guide
 
 ## Backend Docs
-1. [Setup Guide](https://github.com/pandit-abhishek1/zoopsedocs/blob/main/backend/setup.md)
-2. [01ApiGateway](https://github.com/pandit-abhishek1/zoopsedocs/tree/main/backend/01Gateway)
-3. 02 sharedcode
-4. [03AuthServices](https://github.com/pandit-abhishek1/zoopsedocs/tree/main/backend/03AuthServices)
-5. [04Notification](https://github.com/pandit-abhishek1/zoopsedocs/tree/main/backend/04NotificationServices)
-6. [05Sales](https://github.com/pandit-abhishek1/zoopsedocs/tree/main/backend/05SalesServices)
+0. [Setup Guide](https://github.com/pandit-abhishek1/zoopsedocs/blob/main/backend/setup.md)
+1. [01ApiGateway](https://github.com/pandit-abhishek1/zoopsedocs/tree/main/backend/01Gateway)
+2. 02 sharedcode
+3. [03AuthServices](https://github.com/pandit-abhishek1/zoopsedocs/tree/main/backend/03AuthServices)
+4. [04Notification](https://github.com/pandit-abhishek1/zoopsedocs/tree/main/backend/04NotificationServices)
+5. [05Sales](https://github.com/pandit-abhishek1/zoopsedocs/tree/main/backend/05SalesServices)
+
+6. 
+
+
 ## Frontend Docs
 1. ---
