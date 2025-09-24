@@ -151,7 +151,7 @@ Request Body:
 </details>
 
 ```bash
- PUT  base_url/api/v1/auth/team/:roleId/update
+ PUT  base_url/api/v1/auth/teams/:roleId/update
 ```
 
    <details><summery>
@@ -165,5 +165,77 @@ Request Body:
 - `departmentId`(optional, ): departmentId of the team
 - **Login Credencial**: JWT session cookiess
 </details>
+
+
+#### Membership (Tested By Abhishek)
+
+<details>
+<summery>
+</summery>
+
+```bash
+POST base_url/api/v1/auth/memberships/create
+```
+
+<details><summery> 
+  To add member a in team by a logedin user .
+</summery>
+
+Request Body:
+
+- `tenantId`(required, string): refrence with tenant.
+- `teamId`(required, string): refrence with team.
+- `userId`(required, ): reference with user
+- `isTL`(optional, boolean, default:true): is active or not
+- **Login Credencial**: JWT session cookiess
+</details>
+
+```bash
+ PUT  base_url/api/v1/auth/memberships/:membershipId/update
+```
+
+   <details><summery>
+   To update a team by a user login.
+</summery>
+Request Body:
+
+- `tenantId`(required, string): refrence with tenant.
+- `teamId`(required, string): refrence with team.
+- `userId`(required, ): reference with user
+- `isTL`(optional, boolean, default:true): is active or not
+- **Login Credencial**: JWT session cookiess
+
+
+</details>
+
+```bash
+
+GET  base_url/api/v1/auth/memberships/:teamId/update
+```
+
+<detail>
+<summery>finding member of team<summery>
+
+
+response example : 
+
+```json
+{
+    "_id": "68d4026b3fff62b44fe875ef",
+   "tenantId": {
+                "name": "test"
+            },
+            "teamId": "68d3c103a65701ea915e6b44",
+            "userId": {
+                "email": "bhai2605@gmail.com",
+                "username": "bhai"
+            },
+            "isTL": true,
+            "createdAt": "2025-09-24T14:38:35.317Z",
+            "updatedAt": "2025-09-24T14:38:35.317Z",
+            "__v": 0
+}
+```
+</detail>
 
 </details>
