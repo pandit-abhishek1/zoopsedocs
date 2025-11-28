@@ -260,8 +260,31 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "GET",
-								"header": []
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Dashboard\",\r\n    \"features\": [\r\n      { \"name\": \"View Metrics\", \"isAllowed\": true },\r\n      { \"name\": \"Export Reports\", \"isAllowed\": false }\r\n    ]\r\n  }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:4004/api/v1/subs/module",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4004",
+									"path": [
+										"api",
+										"v1",
+										"subs",
+										"module"
+									]
+								}
 							},
 							"response": []
 						}
