@@ -295,7 +295,7 @@
 					"name": "subscription",
 					"item": [
 						{
-							"name": "New Request",
+							"name": "initpayment",
 							"id": "48580027-75ab38e9-0181-48c3-ab89-96c5ffd15a34",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
