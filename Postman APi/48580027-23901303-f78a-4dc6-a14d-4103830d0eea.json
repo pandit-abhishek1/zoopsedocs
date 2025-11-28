@@ -233,8 +233,21 @@
 			"name": "subs",
 			"item": [
 				{
-					"name": "New Folder",
-					"item": [],
+					"name": "sku",
+					"item": [
+						{
+							"name": "New Request",
+							"id": "48580027-9666fada-777f-4129-b805-2087865bf0f4",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					],
 					"id": "48580027-086af498-6ef9-4dee-9033-d6de403675f7"
 				}
 			],
