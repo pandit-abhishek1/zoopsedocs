@@ -254,7 +254,7 @@
 					"name": "module",
 					"item": [
 						{
-							"name": "New Request",
+							"name": "createmodule",
 							"id": "48580027-5e5b6e76-48b2-4d72-bdb0-9e115adbd351",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
