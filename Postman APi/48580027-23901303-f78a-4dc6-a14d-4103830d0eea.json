@@ -236,7 +236,7 @@
 					"name": "sku",
 					"item": [
 						{
-							"name": "New Request",
+							"name": "create",
 							"id": "48580027-9666fada-777f-4129-b805-2087865bf0f4",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -249,6 +249,11 @@
 						}
 					],
 					"id": "48580027-086af498-6ef9-4dee-9033-d6de403675f7"
+				},
+				{
+					"name": "New Folder",
+					"item": [],
+					"id": "48580027-e42e8985-e8ac-4c36-8e8d-c97e14ca2f58"
 				}
 			],
 			"id": "48580027-90320f7b-7f6c-442d-abef-2ed10c775c56"
