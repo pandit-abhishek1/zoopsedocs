@@ -272,12 +272,10 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:4004/api/v1/subs/module",
-									"protocol": "http",
+									"raw": "{{baseURL}}/api/v1/subs/module",
 									"host": [
-										"localhost"
+										"{{baseURL}}"
 									],
-									"port": "4004",
 									"path": [
 										"api",
 										"v1",
@@ -313,12 +311,10 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:4004/api/v1/subs/pay/init",
-									"protocol": "http",
+									"raw": "{{baseURL}}/api/v1/subs/pay/init",
 									"host": [
-										"localhost"
+										"{{baseURL}}"
 									],
-									"port": "4004",
 									"path": [
 										"api",
 										"v1",
@@ -335,6 +331,13 @@
 				}
 			],
 			"id": "48580027-90320f7b-7f6c-442d-abef-2ed10c775c56"
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "",
+			"type": "default"
 		}
 	]
 }
