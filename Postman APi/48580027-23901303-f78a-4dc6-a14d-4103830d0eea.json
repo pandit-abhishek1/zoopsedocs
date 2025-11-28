@@ -333,8 +333,32 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "GET",
-								"header": []
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"orderId\": \"order_RlE2ZQPaBK0avT\",\r\n  \"paymentId\": \"285c6a3a-0c00-4f09-83e6-db96b844a403\",\r\n  \"signature\": \"58a0045b1c7eba842917c703a10bef0dbca7bfb9ea5ac946d63860b3a302cd04\",\r\n  \"referenceId\": \"285c6a3a-0c00-4f09-83e6-db96b844a403\",\r\n   \"skuId\":\"6929a5e2c879e465664bc245\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:4004/api/v1/subs/pay/create",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4004",
+									"path": [
+										"api",
+										"v1",
+										"subs",
+										"pay",
+										"create"
+									]
+								}
 							},
 							"response": []
 						}
