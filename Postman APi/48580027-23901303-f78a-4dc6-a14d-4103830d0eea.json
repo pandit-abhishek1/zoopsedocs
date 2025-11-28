@@ -252,7 +252,20 @@
 				},
 				{
 					"name": "module",
-					"item": [],
+					"item": [
+						{
+							"name": "New Request",
+							"id": "48580027-5e5b6e76-48b2-4d72-bdb0-9e115adbd351",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					],
 					"id": "48580027-e42e8985-e8ac-4c36-8e8d-c97e14ca2f58"
 				}
 			],
