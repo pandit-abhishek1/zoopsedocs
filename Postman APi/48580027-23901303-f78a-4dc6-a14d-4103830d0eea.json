@@ -301,8 +301,32 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "GET",
-								"header": []
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"skuId\":\"6929a5e2c879e465664bc245\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:4004/api/v1/subs/pay/init",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4004",
+									"path": [
+										"api",
+										"v1",
+										"subs",
+										"pay",
+										"init"
+									]
+								}
 							},
 							"response": []
 						}
