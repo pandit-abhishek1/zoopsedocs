@@ -292,8 +292,21 @@
 					"id": "48580027-e42e8985-e8ac-4c36-8e8d-c97e14ca2f58"
 				},
 				{
-					"name": "New Folder",
-					"item": [],
+					"name": "subscription",
+					"item": [
+						{
+							"name": "New Request",
+							"id": "48580027-75ab38e9-0181-48c3-ab89-96c5ffd15a34",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					],
 					"id": "48580027-45edb091-d68c-4107-968c-f71ad0f15d87"
 				}
 			],
