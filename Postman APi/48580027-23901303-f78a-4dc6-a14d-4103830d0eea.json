@@ -327,7 +327,7 @@
 							"response": []
 						},
 						{
-							"name": "New Request",
+							"name": "veryfyPayment",
 							"id": "48580027-7702da4a-a292-429e-9e54-cf14ed99f192",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
