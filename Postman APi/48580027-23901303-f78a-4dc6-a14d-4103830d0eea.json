@@ -396,6 +396,42 @@
 								}
 							},
 							"response": []
+						},
+						{
+							"name": "New Request",
+							"id": "48580027-0a86a55d-08c3-4048-b808-6472e24358f0",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						},
+						{
+							"name": "New Request",
+							"id": "48580027-f3b4a4e3-831f-4634-8575-fdb80f363bd7",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						},
+						{
+							"name": "New Request",
+							"id": "48580027-0a75dcf8-50ad-4526-a39c-3c5a68247e6c",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
 						}
 					],
 					"id": "48580027-e42e8985-e8ac-4c36-8e8d-c97e14ca2f58"
