@@ -410,7 +410,7 @@
 							"response": []
 						},
 						{
-							"name": "New Request",
+							"name": "update",
 							"id": "48580027-f3b4a4e3-831f-4634-8575-fdb80f363bd7",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
