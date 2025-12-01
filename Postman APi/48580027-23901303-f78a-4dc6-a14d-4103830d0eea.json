@@ -278,7 +278,24 @@
 							},
 							"request": {
 								"method": "GET",
-								"header": []
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Dashboard\",\r\n    \"features\": [\r\n      { \"name\": \"View Metrics\", \"isAllowed\": true },\r\n      { \"name\": \"Export Reports\", \"isAllowed\": false }\r\n    ]\r\n  }"
+								},
+								"url": {
+									"raw": "{{baseURL}}/api/v1/subs/sku/692d74cd46a8691bef616dfc",
+									"host": [
+										"{{baseURL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"subs",
+										"sku",
+										"692d74cd46a8691bef616dfc"
+									]
+								}
 							},
 							"response": []
 						},
