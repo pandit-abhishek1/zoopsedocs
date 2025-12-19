@@ -228,6 +228,358 @@
 				}
 			],
 			"id": "48580027-596f5bfa-8ad0-43fe-aee4-b81078238bce"
+		},
+		{
+			"name": "subs",
+			"item": [
+				{
+					"name": "sku",
+					"item": [
+						{
+							"name": "create",
+							"id": "48580027-9666fada-777f-4129-b805-2087865bf0f4",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"FREE\",\r\n  \"discription\": \"Basic access with limited usage\",\r\n  \"price\": {\r\n    \"amount\": 0,\r\n    \"currency\": \"INR\",\r\n    \"interval\": \"ONE_TIME\"\r\n  },\r\n  \"trial_days\": 0,\r\n  \"module\": [\"6929a4930b3ec70173ef4ab6\"], \r\n  \"isActive\": true,\r\n  \"isRecmmended\": false\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:4004/api/v1/subs/sku",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4004",
+									"path": [
+										"api",
+										"v1",
+										"subs",
+										"sku"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get",
+							"id": "48580027-9a877a5c-3574-4a3d-a62b-989986614fc3",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Dashboard\",\r\n    \"features\": [\r\n      { \"name\": \"View Metrics\", \"isAllowed\": true },\r\n      { \"name\": \"Export Reports\", \"isAllowed\": false }\r\n    ]\r\n  }"
+								},
+								"url": {
+									"raw": "{{baseURL}}/api/v1/subs/sku/692d74cd46a8691bef616dfc",
+									"host": [
+										"{{baseURL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"subs",
+										"sku",
+										"692d74cd46a8691bef616dfc"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update",
+							"id": "48580027-f33b3e58-5508-4c6c-9f32-f30e5f8c1eb6",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"description\": \"Basic access with limited usage for subscriptiom\",\r\n  \"price\": {\r\n    \"amount\": 11,\r\n    \"currency\": \"INR\",\r\n    \"interval\": \"ONE_TIME\"\r\n  },\r\n  \"trial_days\": 0,\r\n  \"module\": [\"6929a4930b3ec70173ef4ab6\"], \r\n  \"isActive\": false,\r\n  \"isRecmmended\": false\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}/api/v1/subs/sku/692d6c206270e0d54122f1bd",
+									"host": [
+										"{{baseURL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"subs",
+										"sku",
+										"692d6c206270e0d54122f1bd"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delete",
+							"id": "48580027-081d9d72-daa4-4010-b95d-6070b6d44730",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}/api/v1/subs/sku/692d74cd46a8691bef616dfc",
+									"host": [
+										"{{baseURL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"subs",
+										"sku",
+										"692d74cd46a8691bef616dfc"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "48580027-086af498-6ef9-4dee-9033-d6de403675f7"
+				},
+				{
+					"name": "module",
+					"item": [
+						{
+							"name": "createmodule",
+							"id": "48580027-5e5b6e76-48b2-4d72-bdb0-9e115adbd351",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Dashboard\",\r\n    \"features\": [\r\n      { \"name\": \"View Metrics\", \"isAllowed\": true },\r\n      { \"name\": \"Export Reports\", \"isAllowed\": false }\r\n    ]\r\n  }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}/api/v1/subs/module",
+									"host": [
+										"{{baseURL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"subs",
+										"module"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get",
+							"id": "48580027-0a86a55d-08c3-4048-b808-6472e24358f0",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"description\": \"Basic access with limited usage for subscriptiom\",\r\n  \"price\": {\r\n    \"amount\": 11,\r\n    \"currency\": \"INR\",\r\n    \"interval\": \"ONE_TIME\"\r\n  },\r\n  \"trial_days\": 0,\r\n  \"module\": [\"6929a4930b3ec70173ef4ab6\"], \r\n  \"isActive\": false,\r\n  \"isRecmmended\": false\r\n}\r\n"
+								},
+								"url": {
+									"raw": "{{baseURL}}/api/v1/subs/module/692d6c316270e0d54122f1c0",
+									"host": [
+										"{{baseURL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"subs",
+										"module",
+										"692d6c316270e0d54122f1c0"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update",
+							"id": "48580027-f3b4a4e3-831f-4634-8575-fdb80f363bd7",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"description\": \"Basic access with limited usage for subscriptiom\",\r\n  \"price\": {\r\n    \"amount\": 11,\r\n    \"currency\": \"INR\",\r\n    \"interval\": \"ONE_TIME\"\r\n  },\r\n  \"trial_days\": 0,\r\n  \"module\": [\"6929a4930b3ec70173ef4ab6\"], \r\n  \"isActive\": false,\r\n  \"isRecmmended\": false\r\n}\r\n"
+								},
+								"url": {
+									"raw": "{{baseURL}}/api/v1/subs/module/692d6c316270e0d54122f1c0",
+									"host": [
+										"{{baseURL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"subs",
+										"module",
+										"692d6c316270e0d54122f1c0"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delete",
+							"id": "48580027-0a75dcf8-50ad-4526-a39c-3c5a68247e6c",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}/api/v1/subs/module/692d74cd46a8691bef616dfc",
+									"host": [
+										"{{baseURL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"subs",
+										"module",
+										"692d74cd46a8691bef616dfc"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "48580027-e42e8985-e8ac-4c36-8e8d-c97e14ca2f58"
+				},
+				{
+					"name": "subscription",
+					"item": [
+						{
+							"name": "createOrder",
+							"id": "48580027-75ab38e9-0181-48c3-ab89-96c5ffd15a34",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"skuId\":\"6929a5e2c879e465664bc245\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}/api/v1/subs/pay/init",
+									"host": [
+										"{{baseURL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"subs",
+										"pay",
+										"init"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "verifypayment",
+							"id": "48580027-7702da4a-a292-429e-9e54-cf14ed99f192",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"orderId\": \"order_RlE2ZQPaBK0avT\",\r\n  \"paymentId\": \"285c6a3a-0c00-4f09-83e6-db96b844a403\",\r\n  \"signature\": \"58a0045b1c7eba842917c703a10bef0dbca7bfb9ea5ac946d63860b3a302cd04\",\r\n  \"referenceId\": \"285c6a3a-0c00-4f09-83e6-db96b844a403\",\r\n   \"skuId\":\"6929a5e2c879e465664bc245\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:4004/api/v1/subs/pay/create",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4004",
+									"path": [
+										"api",
+										"v1",
+										"subs",
+										"pay",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "New Request",
+							"id": "48580027-29a0a757-d804-4a7e-b059-6e887cf73d08",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					],
+					"id": "48580027-45edb091-d68c-4107-968c-f71ad0f15d87"
+				}
+			],
+			"id": "48580027-90320f7b-7f6c-442d-abef-2ed10c775c56"
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "",
+			"type": "default"
 		}
 	]
 }
