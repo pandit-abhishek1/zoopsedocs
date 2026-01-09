@@ -447,10 +447,10 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"description\": \"Basic access with limited usage for subscriptiom\",\r\n  \"price\": {\r\n    \"amount\": 11,\r\n    \"currency\": \"INR\",\r\n    \"interval\": \"ONE_TIME\"\r\n  },\r\n  \"trial_days\": 0,\r\n  \"module\": [\"6929a4930b3ec70173ef4ab6\"], \r\n  \"isActive\": false,\r\n  \"isRecmmended\": false\r\n}\r\n"
+									"raw": "{\r\n  \"description\": \"Basic access with limited usage for subscriptiom with gateway\",\r\n  \"price\": {\r\n    \"amount\": 11,\r\n    \"currency\": \"INR\",\r\n    \"interval\": \"ONE_TIME\"\r\n  },\r\n  \"trial_days\": 0,\r\n  \"module\": [\"6929a4930b3ec70173ef4ab6\"], \r\n  \"isActive\": false,\r\n  \"isRecmmended\": false\r\n}\r\n"
 								},
 								"url": {
-									"raw": "{{baseURL}}/api/v1/subs/module/692d6c316270e0d54122f1c0",
+									"raw": "{{baseURL}}/api/v1/subs/module/6960de3d046342b2b5f0191b",
 									"host": [
 										"{{baseURL}}"
 									],
@@ -459,7 +459,7 @@
 										"v1",
 										"subs",
 										"module",
-										"692d6c316270e0d54122f1c0"
+										"6960de3d046342b2b5f0191b"
 									]
 								}
 							},
