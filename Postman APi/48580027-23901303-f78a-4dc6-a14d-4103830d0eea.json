@@ -284,7 +284,7 @@
 									"raw": "{\r\n    \"name\": \"Dashboard\",\r\n    \"features\": [\r\n      { \"name\": \"View Metrics\", \"isAllowed\": true },\r\n      { \"name\": \"Export Reports\", \"isAllowed\": false }\r\n    ]\r\n  }"
 								},
 								"url": {
-									"raw": "{{baseURL}}/api/v1/subs/sku/692d74cd46a8691bef616dfc",
+									"raw": "{{baseURL}}/api/v1/subs/sku/6960dcc4046342b2b5f01911",
 									"host": [
 										"{{baseURL}}"
 									],
@@ -293,7 +293,7 @@
 										"v1",
 										"subs",
 										"sku",
-										"692d74cd46a8691bef616dfc"
+										"6960dcc4046342b2b5f01911"
 									]
 								}
 							},
@@ -310,7 +310,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"description\": \"Basic access with limited usage for subscriptiom\",\r\n  \"price\": {\r\n    \"amount\": 11,\r\n    \"currency\": \"INR\",\r\n    \"interval\": \"ONE_TIME\"\r\n  },\r\n  \"trial_days\": 0,\r\n  \"module\": [\"6929a4930b3ec70173ef4ab6\"], \r\n  \"isActive\": false,\r\n  \"isRecmmended\": false\r\n}\r\n",
+									"raw": "{\r\n  \"description\": \"Basic access with limited usage for subscriptiom with gateway\",\r\n  \"price\": {\r\n    \"amount\": 11,\r\n    \"currency\": \"INR\",\r\n    \"interval\": \"ONE_TIME\"\r\n  },\r\n  \"trial_days\": 0,\r\n  \"module\": [\"6929a4930b3ec70173ef4ab6\"], \r\n  \"isActive\": false,\r\n  \"isRecmmended\": false\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -318,7 +318,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseURL}}/api/v1/subs/sku/692d6c206270e0d54122f1bd",
+									"raw": "{{baseURL}}/api/v1/subs/sku/6960dcc4046342b2b5f01911",
 									"host": [
 										"{{baseURL}}"
 									],
@@ -327,7 +327,7 @@
 										"v1",
 										"subs",
 										"sku",
-										"692d6c206270e0d54122f1bd"
+										"6960dcc4046342b2b5f01911"
 									]
 								}
 							},
