@@ -702,7 +702,7 @@
 							"response": []
 						},
 						{
-							"name": "update",
+							"name": "getbyTenantId",
 							"id": "48580027-bfe0ae74-98c3-4b59-82b6-18ea455009fa",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
