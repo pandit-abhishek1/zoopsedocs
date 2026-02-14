@@ -582,8 +582,21 @@
 					"id": "48580027-45edb091-d68c-4107-968c-f71ad0f15d87"
 				},
 				{
-					"name": "New Folder",
-					"item": [],
+					"name": "invoice",
+					"item": [
+						{
+							"name": "New Request",
+							"id": "48580027-f467b80e-bb53-4e08-b4ac-6fc9e916c5cf",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					],
 					"id": "48580027-ce93ead8-fca3-4075-b079-0ea98e4da80c"
 				},
 				{
