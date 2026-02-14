@@ -234,7 +234,7 @@
 									"response": []
 								},
 								{
-									"name": "New Request",
+									"name": "signup",
 									"id": "48580027-e032d3a6-5f36-4287-9a57-a598b376086f",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
