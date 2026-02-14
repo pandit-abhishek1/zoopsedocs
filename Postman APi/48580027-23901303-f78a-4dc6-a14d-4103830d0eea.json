@@ -678,6 +678,18 @@
 								"header": []
 							},
 							"response": []
+						},
+						{
+							"name": "update",
+							"id": "48580027-bfe0ae74-98c3-4b59-82b6-18ea455009fa",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
 						}
 					],
 					"id": "48580027-ce93ead8-fca3-4075-b079-0ea98e4da80c"
