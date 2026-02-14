@@ -650,7 +650,20 @@
 							},
 							"request": {
 								"method": "GET",
-								"header": []
+								"header": [],
+								"url": {
+									"raw": "{{baseURL}}/api/v1/subs/invoices/69905fe9b6d7bcc1818bf752",
+									"host": [
+										"{{baseURL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"subs",
+										"invoices",
+										"69905fe9b6d7bcc1818bf752"
+									]
+								}
 							},
 							"response": []
 						}
