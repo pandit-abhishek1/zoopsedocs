@@ -668,7 +668,7 @@
 							"response": []
 						},
 						{
-							"name": "getbytenentId",
+							"name": "update",
 							"id": "48580027-a00126ca-e52e-4253-b36d-63577ec88ba3",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
