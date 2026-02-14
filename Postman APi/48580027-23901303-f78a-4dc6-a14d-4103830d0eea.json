@@ -666,6 +666,18 @@
 								}
 							},
 							"response": []
+						},
+						{
+							"name": "getbytenentId",
+							"id": "48580027-a00126ca-e52e-4253-b36d-63577ec88ba3",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
 						}
 					],
 					"id": "48580027-ce93ead8-fca3-4075-b079-0ea98e4da80c"
