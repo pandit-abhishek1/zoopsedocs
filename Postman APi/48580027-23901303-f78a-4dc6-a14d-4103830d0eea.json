@@ -585,7 +585,7 @@
 					"name": "invoice",
 					"item": [
 						{
-							"name": "New Request",
+							"name": "createinvoice",
 							"id": "48580027-f467b80e-bb53-4e08-b4ac-6fc9e916c5cf",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
