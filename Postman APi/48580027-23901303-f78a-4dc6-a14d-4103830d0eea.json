@@ -591,8 +591,29 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "GET",
-								"header": []
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"skuId\": \"6929a4930b3ec70173ef4ab6\",\r\n  \"paymentId\": \"6929a4930b3ec70173ef4ab6\",\r\n  \"subscriptionId\": \"6929a4930b3ec70173ef4ab6\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}/api/v1/subs/invoices",
+									"host": [
+										"{{baseURL}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"subs",
+										"invoices"
+									]
+								}
 							},
 							"response": []
 						}
