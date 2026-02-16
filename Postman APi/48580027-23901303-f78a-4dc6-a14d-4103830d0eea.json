@@ -252,8 +252,20 @@
 							"name": "superAdmin",
 							"item": [
 								{
-									"name": "New Request",
+									"name": "login",
 									"id": "48580027-9bfc05e1-2c9c-4d33-90b3-5811f09b83e4",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": []
+									},
+									"response": []
+								},
+								{
+									"name": "getAllTenant",
+									"id": "48580027-94b2030f-6796-4fe1-b9da-1523e9530ad2",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
